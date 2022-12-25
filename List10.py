@@ -7,6 +7,6 @@ def main(list_num):
         int: return answer
     """
     ans = list_num[-1]
-    if list_num[1] > list_num[-1]:
-        ans = list_num[1]
+    if list_num[0] > list_num[-1]:
+        ans = list_num[0]
     return ans

@@ -7,7 +7,7 @@ def main(list1):
         bool: return answer
     """
     i = 0
-    ans = 1
+    ans = 0
     while len(list1) > i:
         if list1[0] == list1[i]:
             ans += 1

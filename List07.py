@@ -11,4 +11,4 @@ def main(list1):
         if list1[i] == 0:
             list1[i] = False
         i += 1
-    return
+    return list1
